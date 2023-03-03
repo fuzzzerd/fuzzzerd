@@ -2,7 +2,7 @@
 
 - 🎮 For fun I'm building my blog and tinkering with games dev using Phaser and MonoGame.
 - 🔭 For work I'm building web apps for building owners and managers. 
-- 🌱 I’m alwasy learning new things.
+- 🌱 I’m always learning new things.
 - 💬 Ask me about [FMData](https://fmdata.io) or any of my other public repos.
 
 [![Languages Used](https://github-readme-stats.vercel.app/api/top-langs/?username=fuzzzerd&layout=compact&theme=github_dark&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
