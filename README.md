@@ -32,7 +32,7 @@ I'm Nate, a Senior Software Engineer using Github for lots of projects! Check ou
 
 ## About me
 
-I started programming with my father in qBASIC in the early 1990's and progressed to Visual Basic 4 on Windows 3.1 (yes, the 16-bit version.) I started using Microsoft Access and Classic ASP to build websites. I built a stats tracking databases to track gaming progress of my friends and myself by extracting the data from the game servers log files. This set me on the path to programming, and I've never looked back. Through high school and college I studied programming, graduating from Northeastern Illinois University with a degree in Computer Science.
+I started programming with my father in qBASIC in the early 1990's and progressed to Visual Basic 4 on Windows 3.1 (yes, the 16-bit version.) I started using Microsoft Access and Classic ASP to build websites. I built a website and database to track gaming progress of my friends and myself by extracting the data from the game servers log files. This set me on the path to programming, and I've never looked back. Through high school and college I studied programming, graduating from Northeastern Illinois University with a degree in Computer Science.
 
 I have been programming in C# and .NET since the .NET v1 days. That is the original .NET Framework. As .NET Core came out, I followed that work and built several projects using that variant, and contiue using the latest .NET releases now.
 
