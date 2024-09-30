@@ -2,7 +2,17 @@
 
 I'm Nate, a Senior Software Engineer using Github for lots of projects! Check out my profile and recent activity to see what I'm working on.
 
-<img height="200em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=fuzzzerd&show_icons=true&theme=transparent&include_all_commits=true&count_private=true" />
+<p>
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=fuzzzerd&show_icons=true&locale=en&theme=dark&include_all_commits=true&count_private=true&show_icons=true"
+    media="(prefers-color-scheme: dark)" />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=fuzzzerd&show_icons=true&locale=en&include_all_commits=true&count_private=true&show_icons=true"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=fuzzzerd&show_icons=true&locale=en&show=discussions_answered&custom_title=fuzzzerd%20Stats%20In%20A%20Nutshell" />
+</picture>
+</p>
 
 ## Current Projects and Activity
 
@@ -14,7 +24,7 @@ I'm Nate, a Senior Software Engineer using Github for lots of projects! Check ou
 ## The Numbers
 
 <a href="https://github.com/fuzzzerd">
-  <img height=200 align="center" src="https://streak-stats.demolab.com?user=fuzzzerd&theme=transparent&border_radius=6&card_width=250&hide_longest_streak=true" />
+  <img height=200 align="center" src="https://streak-stats.demolab.com?user=fuzzzerd&theme=transparent&border_radius=6&card_width=275" />
 </a>
 <a href="https://github.com/fuzzzerd">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fuzzzerd&layout=compact&theme=transparent&count_private=true" />
@@ -24,7 +34,7 @@ I'm Nate, a Senior Software Engineer using Github for lots of projects! Check ou
 
 I started programming with my father in qBASIC in the early 1990's and progressed to Visual Basic 4 on Windows 3.1 (yes, the 16-bit version.) I started using Microsoft Access and Classic ASP to build websites. I built a stats tracking databases to track gaming progress of my friends and myself by extracting the data from the game servers log files. This set me on the path to programming, and I've never looked back. Through high school and college I studied programming, graduating from Northeastern Illinois University with a degree in Computer Science.
 
-When .NET 1.0 was released, I jumped on the band wagon, but I stuck with VB. It wasn't until .NET 2.0 came out that I really dug into C# and started going like gangbusters. I started looking at Open Source software, reading more code, reading blogs, and listening to podcasts. I started honing my craft based on these new inputs, and I continue to improve my skills and learn new things at every opportunity.
+I have been programming in C# and .NET since the .NET v1 days. That is the original .NET Framework. As .NET Core came out, I followed that work and built several projects using that variant, and contiue using the latest .NET releases now.
 
 ## Get in touch
 
