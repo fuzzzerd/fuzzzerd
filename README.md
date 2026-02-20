@@ -5,12 +5,12 @@ I'm Nate, a team leader and software entineer using Github for lots of projects!
 <p>
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=fuzzzerd&show_icons=true&locale=en&theme=dark&include_all_commits=true&count_private=true&show_icons=true"
+    srcset="./profile/stats-dark.svg"
     media="(prefers-color-scheme: dark)" />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=fuzzzerd&show_icons=true&locale=en&include_all_commits=true&count_private=true&show_icons=true"
+    srcset="./profile/stats-light.svg"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=fuzzzerd&show_icons=true&locale=en&show=discussions_answered&custom_title=fuzzzerd%20Stats%20In%20A%20Nutshell" />
+  <img align="center" src="./profile/stats-light.svg" />
 </picture>
 </p>
 
@@ -35,7 +35,7 @@ I started programming with my father in qBASIC in the early 1990's and progresse
 In order to facilitate my hobby of gaming, I spent a lot of time learning how to run a game server in my basement. I spent some time throughout my career as a sys-admin as well. I use the skills and knowledge gained through those experiences to develop and design robust, scalable, and resilient software systems.
 
 <a href="https://github.com/fuzzzerd">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fuzzzerd&layout=compact&theme=transparent&count_private=true" />
+  <img height=200 align="center" src="./profile/top-langs.svg" />
 </a>
 
 ## Get in touch
