@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Nate Bross' GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 52, Total Commits  : 1214, Total PRs: 187, Total Issues: 133, Contributed to (last year): 1</desc>
+        <desc id="descId">Total Stars Earned: 52, Total Commits  : 1217, Total PRs: 190, Total Issues: 133, Contributed to (last year): 1</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 72.72763011260072;
+        stroke-dashoffset: 72.49856130397555;
       }
     }
   
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >187</text>
+      >190</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
