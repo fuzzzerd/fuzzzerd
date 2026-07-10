@@ -1,6 +1,6 @@
 # Hey there :wave: 
 
-I'm Nate, a team leader and software entineer using Github for lots of projects! Check out my profile and recent activity to see what I'm working on.
+I'm Nate, a team leader and software engineer using Github for lots of projects! Check out my profile and recent activity to see what I'm working on.
 
 <p>
 <picture>
