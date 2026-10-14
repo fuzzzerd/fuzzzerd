@@ -26,15 +26,15 @@ While GitHub shows a lot of my work, its not everything, though I'd say its a go
 
 ## About me
 
-I started programming with my father in qBASIC in the early 1990's and progressed to Visual Basic 4 on Windows 3.1 (yes, the 16-bit version.) I started using Microsoft Access and Classic ASP to build websites. I built a web based out-of-game Leader Board for my friends and myself by extracting the data from the game servers log files. This set me on the path to programming, and I've never looked back. Through high school and college I studied programming, graduating from Northeastern Illinois University with a degree in Computer Science.
-
-In order to facilitate my hobby of gaming, I spent a lot of time learning how to run a game server in my basement. I spent some time throughout my career as a sys-admin as well. I use the skills and knowledge gained through those experiences to develop and design robust, scalable, and resilient software systems.
-
 <p>
 <picture>
   <img src="./profile/metrics-languages-light.svg" alt="Most-used languages in Nate's repositories" width="100%" />
 </picture>
 </p>
+
+I started programming with my father in qBASIC in the early 1990's and progressed to Visual Basic 4 on Windows 3.1 (yes, the 16-bit version.) I started using Microsoft Access and Classic ASP to build websites. I built a web based out-of-game Leader Board for my friends and myself by extracting the data from the game servers log files. This set me on the path to programming, and I've never looked back. Through high school and college I studied programming, graduating from Northeastern Illinois University with a degree in Computer Science.
+
+In order to facilitate my hobby of gaming, I spent a lot of time learning how to run a game server in my basement. I spent some time throughout my career as a sys-admin as well. I use the skills and knowledge gained through those experiences to develop and design robust, scalable, and resilient software systems.
 
 <p>
 <picture>
