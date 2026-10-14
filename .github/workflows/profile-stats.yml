@@ -2,8 +2,9 @@ name: Update Profile Metrics
 
 # METRICS_TOKEN: personal access token; no scopes needed for public data.
 # GITHUB_TOKEN: supplied by Actions; contents: write allows generated image commits.
-# Each topic has its own light/dark SVG. Introduction uses the GitHub bio.
-# Languages: owned repositories; star-list languages: up to two named lists.
+# One Classic SVG per topic, using the built-in neutral styling for both modes.
+# Existing -light filenames are retained so published cards remain available.
+# Introduction shows account age and activity; star-list languages use named lists.
 
 on:
   schedule:
@@ -16,17 +17,14 @@ concurrency:
 
 jobs:
   metrics:
-    name: ${{ matrix.topic }} (${{ matrix.theme }})
+    name: ${{ matrix.topic }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
     strategy:
       fail-fast: false
-      # Serialize direct commits so the cards do not compete to update the branch.
-      max-parallel: 1
       matrix:
         topic: [introduction, stats, calendar, languages, starlists]
-        theme: [light, dark]
 
     steps:
       - name: Generate Metrics card
@@ -36,13 +34,11 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_message: "chore: update ${filename}"
           user: ${{ github.repository_owner }}
-          filename: profile/metrics-${{ matrix.topic }}-${{ matrix.theme }}.svg
+          filename: profile/metrics-${{ matrix.topic }}-light.svg
           template: classic
-          base: ${{ matrix.topic == 'stats' && 'header, activity, community, repositories' || '' }}
+          base: ${{ matrix.topic == 'introduction' && 'header, activity' || matrix.topic == 'stats' && 'community, repositories' || '' }}
           repositories_affiliations: owner
           repositories_forks: no
-          plugin_introduction: ${{ matrix.topic == 'introduction' }}
-          plugin_introduction_title: yes
           plugin_isocalendar: ${{ matrix.topic == 'calendar' }}
           plugin_isocalendar_duration: full-year
           plugin_languages: ${{ matrix.topic == 'languages' }}
@@ -55,10 +51,3 @@ jobs:
           plugin_starlists_limit_repositories: 0
           plugins_errors_fatal: yes
           retries_delay: 60
-          extras_css: |
-            svg { color: ${{ matrix.theme == 'dark' && '#c9d1d9' || '#24292f' }}; }
-            h1, h2, h3 { color: ${{ matrix.theme == 'dark' && '#58a6ff' || '#0969da' }}; }
-            .field svg { fill: ${{ matrix.theme == 'dark' && '#8b949e' || '#57606a' }}; }
-            .field.language.details small, .starlist > .count, footer {
-              color: ${{ matrix.theme == 'dark' && '#8b949e' || '#57606a' }};
-            }

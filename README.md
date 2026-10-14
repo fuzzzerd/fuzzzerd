@@ -4,10 +4,7 @@ I'm Nate, a team leader and software engineer using Github for lots of projects!
 
 <p>
 <picture>
-  <source
-    srcset="./profile/metrics-introduction-dark.svg"
-    media="(prefers-color-scheme: dark)" />
-  <img src="./profile/metrics-introduction-light.svg" alt="Nate's GitHub introduction" />
+  <img src="./profile/metrics-introduction-light.svg" alt="Nate's GitHub account age and activity summary" />
 </picture>
 </p>
 
@@ -23,18 +20,12 @@ While GitHub shows a lot of my work, its not everything, though I'd say its a go
 
 <p>
 <picture>
-  <source
-    srcset="./profile/metrics-stats-dark.svg"
-    media="(prefers-color-scheme: dark)" />
   <img src="./profile/metrics-stats-light.svg" alt="Nate's GitHub activity, community, and repository statistics" />
 </picture>
 </p>
 
 <p>
 <picture>
-  <source
-    srcset="./profile/metrics-calendar-dark.svg"
-    media="(prefers-color-scheme: dark)" />
   <img src="./profile/metrics-calendar-light.svg" alt="Nate's full-year contribution calendar and streaks" />
 </picture>
 </p>
@@ -47,18 +38,12 @@ In order to facilitate my hobby of gaming, I spent a lot of time learning how to
 
 <p>
 <picture>
-  <source
-    srcset="./profile/metrics-languages-dark.svg"
-    media="(prefers-color-scheme: dark)" />
   <img src="./profile/metrics-languages-light.svg" alt="Most-used languages in Nate's repositories" />
 </picture>
 </p>
 
 <p>
 <picture>
-  <source
-    srcset="./profile/metrics-starlists-dark.svg"
-    media="(prefers-color-scheme: dark)" />
   <img src="./profile/metrics-starlists-light.svg" alt="Languages in Nate's named GitHub star lists" />
 </picture>
 </p>
