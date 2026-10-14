@@ -38,9 +38,14 @@ jobs:
           filename: profile/metrics-${{ matrix.topic }}-light.svg
           template: classic
           config_display: large
+          # Extra bottom clearance for Firefox's font/layout differences.
+          config_padding: 0, 24 + 11%
           base: ${{ matrix.topic == 'introduction' && 'header, activity' || matrix.topic == 'stats' && 'community, repositories' || '' }}
           repositories_affiliations: owner
           repositories_forks: no
+          # Smaller language queries reduce timeout risk; log diagnostics automatically.
+          repositories_batch: ${{ matrix.topic == 'languages' && 25 || 100 }}
+          debug: ${{ matrix.topic == 'languages' }}
           plugin_languages: ${{ matrix.topic == 'languages' }}
           plugin_languages_details: percentage
           plugin_languages_limit: 6
