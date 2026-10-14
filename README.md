@@ -5,12 +5,9 @@ I'm Nate, a team leader and software engineer using Github for lots of projects!
 <p>
 <picture>
   <source
-    srcset="./profile/stats-dark.svg"
+    srcset="./profile/metrics-introduction-dark.svg"
     media="(prefers-color-scheme: dark)" />
-  <source
-    srcset="./profile/stats-light.svg"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-  <img align="center" src="./profile/stats-light.svg" />
+  <img src="./profile/metrics-introduction-light.svg" alt="Nate's GitHub introduction" />
 </picture>
 </p>
 
@@ -24,9 +21,23 @@ I'm Nate, a team leader and software engineer using Github for lots of projects!
 
 While GitHub shows a lot of my work, its not everything, though I'd say its a good representative sample.
 
-<a href="https://github.com/fuzzzerd">
-  <img height=200 align="center" src="https://streak-stats.demolab.com?user=fuzzzerd&theme=transparent&border_radius=6&card_width=275" />
-</a>
+<p>
+<picture>
+  <source
+    srcset="./profile/metrics-stats-dark.svg"
+    media="(prefers-color-scheme: dark)" />
+  <img src="./profile/metrics-stats-light.svg" alt="Nate's GitHub activity, community, and repository statistics" />
+</picture>
+</p>
+
+<p>
+<picture>
+  <source
+    srcset="./profile/metrics-calendar-dark.svg"
+    media="(prefers-color-scheme: dark)" />
+  <img src="./profile/metrics-calendar-light.svg" alt="Nate's full-year contribution calendar and streaks" />
+</picture>
+</p>
 
 ## About me
 
@@ -34,9 +45,23 @@ I started programming with my father in qBASIC in the early 1990's and progresse
 
 In order to facilitate my hobby of gaming, I spent a lot of time learning how to run a game server in my basement. I spent some time throughout my career as a sys-admin as well. I use the skills and knowledge gained through those experiences to develop and design robust, scalable, and resilient software systems.
 
-<a href="https://github.com/fuzzzerd">
-  <img height=200 align="center" src="./profile/top-langs.svg" />
-</a>
+<p>
+<picture>
+  <source
+    srcset="./profile/metrics-languages-dark.svg"
+    media="(prefers-color-scheme: dark)" />
+  <img src="./profile/metrics-languages-light.svg" alt="Most-used languages in Nate's repositories" />
+</picture>
+</p>
+
+<p>
+<picture>
+  <source
+    srcset="./profile/metrics-starlists-dark.svg"
+    media="(prefers-color-scheme: dark)" />
+  <img src="./profile/metrics-starlists-light.svg" alt="Languages in Nate's named GitHub star lists" />
+</picture>
+</p>
 
 ## Get in touch
 

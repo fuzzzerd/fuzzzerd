@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="80" viewBox="0 0 480 80" role="img" aria-labelledby="title">
+  <title id="title">Contribution calendar and streaks — awaiting the first Metrics workflow run</title>
+  <text x="8" y="28" fill="#0969da" font-family="sans-serif" font-size="18">Contribution calendar and streaks</text>
+  <text x="8" y="56" fill="#24292f" font-family="sans-serif" font-size="14">Add METRICS_TOKEN and run Update Profile Metrics.</text>
+</svg>
