@@ -26,12 +26,12 @@ svg.large .starlist { width: 920px; }</style>
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="815.586302782948" height="8" fill="#7355dd"/>
-                    <rect mask="url(#languages-bar)" x="815.586302782948" y="0" width="53.5187400818646" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="869.1050428648126" y="0" width="28.03849456720324" height="8" fill="#41b883"/>
-                    <rect mask="url(#languages-bar)" x="897.1435374320158" y="0" width="12.499376715680778" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="909.6429141476966" y="0" width="5.8561815953704155" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="915.4990957430671" y="0" width="4.500904256932967" height="8" fill="#ff5a03"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="815.5185294614216" height="8" fill="#7355dd"/>
+                    <rect mask="url(#languages-bar)" x="815.5185294614216" y="0" width="53.59074265574878" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="869.1092721171703" y="0" width="28.036164633631607" height="8" fill="#41b883"/>
+                    <rect mask="url(#languages-bar)" x="897.145436750802" y="0" width="12.498338046598008" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="909.6437747973999" y="0" width="5.85569496032416" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="915.4994697577241" y="0" width="4.5005302422758735" height="8" fill="#ff5a03"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -43,7 +43,7 @@ svg.large .starlist { width: 920px; }</style>
                                 C#
                             </div>
                             <small>
-                                <div>88.65%</div>
+                                <div>88.64%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -67,7 +67,7 @@ svg.large .starlist { width: 920px; }</style>
                                 TypeScript
                             </div>
                             <small>
-                                <div>5.82%</div>
+                                <div>5.83%</div>
                             </small>
                         </div>
                         <div class="field language details">
