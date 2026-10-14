@@ -39,7 +39,7 @@ jobs:
           template: classic
           config_display: large
           # Extra bottom clearance for Firefox's font/layout differences.
-          config_padding: 0, 24 + 11%
+          config_padding: 0, 21 + 9.5%
           # Larger type without changing Classic's shared light/dark palette.
           extras_css: |
             svg, .items-wrapper { font-size: 18px; line-height: 1.3; }
