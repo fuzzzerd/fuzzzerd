@@ -4,7 +4,7 @@ I'm Nate, a team leader and software engineer using Github for lots of projects!
 
 <p>
 <picture>
-  <img src="./profile/metrics-introduction-light.svg" alt="Nate's GitHub account age and activity summary" />
+  <img src="./profile/metrics-introduction-light.svg" alt="Nate's GitHub account age and activity summary" width="100%" />
 </picture>
 </p>
 
@@ -20,13 +20,7 @@ While GitHub shows a lot of my work, its not everything, though I'd say its a go
 
 <p>
 <picture>
-  <img src="./profile/metrics-stats-light.svg" alt="Nate's GitHub activity, community, and repository statistics" />
-</picture>
-</p>
-
-<p>
-<picture>
-  <img src="./profile/metrics-calendar-light.svg" alt="Nate's full-year contribution calendar and streaks" />
+  <img src="./profile/metrics-stats-light.svg" alt="Nate's GitHub activity, community, and repository statistics" width="100%" />
 </picture>
 </p>
 
@@ -38,13 +32,13 @@ In order to facilitate my hobby of gaming, I spent a lot of time learning how to
 
 <p>
 <picture>
-  <img src="./profile/metrics-languages-light.svg" alt="Most-used languages in Nate's repositories" />
+  <img src="./profile/metrics-languages-light.svg" alt="Most-used languages in Nate's repositories" width="100%" />
 </picture>
 </p>
 
 <p>
 <picture>
-  <img src="./profile/metrics-starlists-light.svg" alt="Languages in Nate's named GitHub star lists" />
+  <img src="./profile/metrics-starlists-light.svg" alt="Languages in Nate's named GitHub star lists" width="100%" />
 </picture>
 </p>
 

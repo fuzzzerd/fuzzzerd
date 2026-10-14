@@ -4,6 +4,7 @@ name: Update Profile Metrics
 # GITHUB_TOKEN: supplied by Actions; contents: write allows generated image commits.
 # One Classic SVG per topic, using the built-in neutral styling for both modes.
 # Existing -light filenames are retained so published cards remain available.
+# Large cards fill the README width; introduction includes a two-week contribution strip.
 # Introduction shows account age and activity; star-list languages use named lists.
 
 on:
@@ -24,7 +25,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        topic: [introduction, stats, calendar, languages, starlists]
+        topic: [introduction, stats, languages, starlists]
 
     steps:
       - name: Generate Metrics card
@@ -36,11 +37,10 @@ jobs:
           user: ${{ github.repository_owner }}
           filename: profile/metrics-${{ matrix.topic }}-light.svg
           template: classic
+          config_display: large
           base: ${{ matrix.topic == 'introduction' && 'header, activity' || matrix.topic == 'stats' && 'community, repositories' || '' }}
           repositories_affiliations: owner
           repositories_forks: no
-          plugin_isocalendar: ${{ matrix.topic == 'calendar' }}
-          plugin_isocalendar_duration: full-year
           plugin_languages: ${{ matrix.topic == 'languages' }}
           plugin_languages_details: percentage
           plugin_languages_limit: 6
