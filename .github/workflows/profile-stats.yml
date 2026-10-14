@@ -34,6 +34,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_message: "chore: update ${filename}"
           user: ${{ github.repository_owner }}
           filename: profile/metrics-${{ matrix.topic }}-${{ matrix.theme }}.svg
           template: classic
